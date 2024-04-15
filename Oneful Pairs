@@ -1,0 +1,10 @@
+using System;
+public class Test{
+    public static void Main()
+    {
+        string [] s=Console.ReadLine().Split(' ');
+        int a=int.Parse(s[0]);
+        int b=int.Parse(s[1]);
+        Console.WriteLine(a+b+(a*b)==111?"Yes":"No");
+    }
+}
